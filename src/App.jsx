@@ -42,7 +42,6 @@ function App() {
     ]);
     setInputVal("");
   };
-  console.log("notes", notes);
 
   const determinePositionColor = () => {
     const maxX = window.innerWidth - 200;
